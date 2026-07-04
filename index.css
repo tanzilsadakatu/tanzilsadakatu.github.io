@@ -70,3 +70,63 @@
 .navigation__link:hover {
   border-bottom: 2px solid var(--color-5);
 }
+
+.hero {
+  display: flex;
+  gap: 32px;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 680px;
+  background-color: var(--color-4);
+  color: var(--color-5);
+}
+
+.hero__brief {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hero__brief h1 {
+  font-size: 3.5rem;
+}
+
+.hero__brief p {
+  font-size: 1.2rem;
+}
+
+.download-resume {
+  padding: 8px;
+  background-color: var(--color-2);
+  color: var(--color-5);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  margin-top: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-align: center;
+  transition: 0.25s;
+}
+
+.download-resume span {
+  display: none;
+}
+
+.download-resume:hover {
+  transition: 0.25s;
+  border: 2px solid var(--color-5);
+}
+
+.download-resume:hover span {
+  display: inline;
+  font-size: 1.25rem;
+}
+
+.hero__image {
+  max-width: 480px;
+}
+
+.hero__image img {
+  width: 100%;
+}
