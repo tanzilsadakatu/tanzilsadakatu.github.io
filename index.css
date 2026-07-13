@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Calibri", sans-serif;
   margin: 0;
   padding: 0;
   user-select: none;
